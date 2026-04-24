@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angle Theorem 3D Visualizer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="panel">
+        <h1>Angle Theorem 3D Visualizer</h1>
+        <p>
+          Explore Grade 6 angle theorems in 3D. Drag to rotate, scroll to zoom,
+          and switch between models.
+        </p>
+
+        <label for="modelSelect">Choose a theorem model</label>
+        <select id="modelSelect">
+          <option value="complementary">Complementary angles (sum = 90°)</option>
+          <option value="supplementary">Supplementary angles (sum = 180°)</option>
+          <option value="vertical">Vertical opposite angles are equal</option>
+          <option value="parallel">Parallel lines and a transversal</option>
+          <option value="triangle">Triangle interior angles (sum = 180°)</option>
+        </select>
+
+        <article id="theoremText" class="theorem-card"></article>
+      </section>
+
+      <section class="canvas-wrap">
+        <canvas id="scene"></canvas>
+      </section>
+    </main>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

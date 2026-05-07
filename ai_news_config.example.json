@@ -1,0 +1,21 @@
+{
+  "timezone": "America/New_York",
+  "email_to": "you@example.com",
+  "email_from": "ai-news@example.com",
+  "smtp_host": "smtp.example.com",
+  "smtp_port": 587,
+  "smtp_username": "ai-news@example.com",
+  "smtp_password": "replace-with-an-app-password",
+  "keywords": [
+    "ai",
+    "artificial intelligence",
+    "machine learning",
+    "generative ai",
+    "llm",
+    "openai",
+    "anthropic",
+    "claude",
+    "gemini",
+    "chatgpt"
+  ]
+}
